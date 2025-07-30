@@ -46,7 +46,7 @@ public class Logic {
         return totalRaisedDTO;
     }
 
-    public CollectionDTO Collection(){
+    public CollectionDTO Collection(String category){
         try(Session session = HibernateUtil.getSession()){
 
         }
