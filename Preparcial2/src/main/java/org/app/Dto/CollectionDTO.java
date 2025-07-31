@@ -4,11 +4,11 @@ import java.math.BigDecimal;
 
 public class CollectionDTO {
     private String category;
-    private int receivedCount;
-    private int assignedCount;
+    private Long receivedCount;
+    private Long assignedCount;
     private BigDecimal totalAmount;
 
-    public CollectionDTO(String category, int receivedCount, int assignedCount, BigDecimal totalAmount) {
+    public CollectionDTO(String category, Long receivedCount, Long assignedCount, BigDecimal totalAmount) {
         this.category = category;
         this.receivedCount = receivedCount;
         this.assignedCount = assignedCount;
@@ -23,19 +23,19 @@ public class CollectionDTO {
         this.category = category;
     }
 
-    public int getReceivedCount() {
+    public Long getReceivedCount() {
         return receivedCount;
     }
 
-    public void setReceivedCount(int receivedCount) {
+    public void setReceivedCount(Long receivedCount) {
         this.receivedCount = receivedCount;
     }
 
-    public int getAssignedCount() {
+    public Long getAssignedCount() {
         return assignedCount;
     }
 
-    public void setAssignedCount(int assignedCount) {
+    public void setAssignedCount(Long assignedCount) {
         this.assignedCount = assignedCount;
     }
 
